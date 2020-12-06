@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#181818">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif; width: 100%;}
+form {border: 3px solid #181818;}
+
+input[type=text], input[type=password], input[type=date], select[id=country] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #dadada;
+}
+.container {
+  padding: 16px;
+  width: 25%;
+}
+button {
+  background-color: #74a5f0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+    </style>
+    <div style="width: 65%; height: 80px; padding: 16px; background-color: ; text-align: center; font-size: 40px; color: beige"><b>WebTech Form</b></div>
+    <div style="width: 60%; height: 80px; padding: 16px; background-color: ; text-align: center; font-size: 40px; color: beige"><b>Sing Up</b></div>
+   <form action="">
+       <div style="background-color: ; width: 25%; padding: 16px; height: 250px; float: left;"></div>
+    <div class="container" style="float: left;">
+        <label for="uname"><b style="color: aliceblue;">First Name</b></label>
+        <input type="text" placeholder="Enter First Name" name="uname" required>
+        <label for="uname"><b style="color: aliceblue;">Last Name Name</b></label>
+        <input type="text" placeholder="Enter Last Name" name="uname" required>
+    
+        <label for="psw"><b style="color: aliceblue;"> New Password</b></label>
+        <input type="password" placeholder="Enter New Password" name="psw" required>
+        <label for="psw"><b style="color: aliceblue;">Confirm Password</b></label>
+        <input type="password" placeholder="Confirm  Password Again" name="psw" required>
+
+        <label for="uname"><b style="color: aliceblue;">Your Email</b></label>
+        <input type="text" placeholder="Enter New Email" name="uname" required>
+        <label for="uname"><b style="color: aliceblue;">Confirm Email</b></label>
+        <input type="text" placeholder="Confirm Email Again" name="uname" required>
+        <br>
+
+        <label style="color: aliceblue; font-size: 20px;"><br>Gender <br>
+            <input type="checkbox"  name="male"> Male <br>
+            <input type="checkbox"  name="female"> Female <br>
+            <br>
+            
+                Date Of Birth: <br>
+                <input type="date" name="birth_date"/> 
+                <br> 
+                <br>
+                <label for="country">Country</label>
+               <select id="country" name="country">
+               <option value="bangladesh">Bangladesh</option>
+               <option value="india">India</option>
+               <option value="Canada">Canada</option>
+               <option value="US">US</option>
+               <option value="UK">UK</option>
+               <option value="Italy">Italy</option>
+               </select>
+               <br>
+               <br>
+               <br> Language You Speak
+               <br>
+               <br>
+               <input type="checkbox" name="bangla" value="on"> Bangla 
+               <br> 
+               <input type="checkbox" name="english" value="on"> English
+               <br> 
+               <input type="checkbox" name="other" value="on"> Other
+               <br>
+               <br>
+
+               Your Adress
+               <br>
+               <textarea rows="4" cols="75" name="address" style="background-color: #dadada;"></textarea>
+               <br>
+               <br>
+            
+        <button type="submit">Sign Up</button>
+        </label>
+      </div>
+      </form>
+   </form>
+</body>
+</html>
